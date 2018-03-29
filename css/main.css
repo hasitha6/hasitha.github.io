@@ -1,0 +1,316 @@
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; color: red;}
+
+p { margin-top: 10px; margin-bottom: 15px; }
+
+.clearfix { overflow: auto }
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar {
+	width: 1000px;
+	background: green;
+	border-radius: 10px;
+}
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+.top-bar-links ul li a {
+	color: white;
+}
+
+.Languages{
+	float: right;
+	
+}
+.Languages ul{
+	margin: 15px;
+	list-style: none;
+}
+
+.Languages ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.Languages ul li a {
+	color: white;
+}
+
+.Languages ul li:last-child {
+	border: 0;
+}
+
+.site-search {
+	padding: 3px 5px 3px 10px ; 
+	margin: 15px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+}
+
+.site-search input {
+	border: 0;
+	float: left;
+}
+
+.site-search button {
+	width: 18px;
+	height: 18px;
+	background: url(../img/icons/search.png);
+	border: 0;
+	float: right;
+}
+header .logo { 
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left }
+
+header .logo h1 {
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps; 
+}
+header .socialmedia { 
+ float: right;
+ margin-top: 50px;
+ margin-right: 20px;
+}
+header .socialmedia ul { 
+	list-style: none
+	 }
+header .socialmedia ul li { 
+	display: inline
+	 }
+
+header .socialmedia ul li a {
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+ header .socialmedia ul li a:hover {
+ 	background: orange;
+ }
+
+ nav {
+ 	margin-top: 20px;
+ 	background: #000;
+ 	background: linear-gradient(#333, #444, #333);
+ 	text-align: center;
+ 	border-radius: 10px;
+ }
+ nav ul {
+ 	list-style: none;
+ }
+
+ nav ul li {
+ 	display: inline;
+ }
+
+ nav ul li a {
+ 	color: #c0c0c0;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-left: 20px; 
+ 	margin-right: 20px;
+ 	display: inline-block;
+ }
+
+ nav ul li a:hover{
+ 	color: red;
+ }
+
+ div.intro div.introtext a {
+ 	text-transform: uppercase;
+ 	color: red;
+ 	float: right;
+ }
+
+div.homecontent {
+	width: 1000px;
+	background: #eee;
+
+}
+
+div.home-col {
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+}
+
+div.home-col h2 {
+	margin: 20px 0 20px 0;
+}
+
+div.home-col a {
+	float: right;
+}
+
+footer {
+	width: 1000px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+div.footercol {
+	width: 313.33px;
+	float: left;
+	margin-left: 15px;
+	border-top: 1px solid #000;
+}
+
+div.footercol h4 {
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #444;
+}
+
+ul.latestNews {
+	margin-top: 15px;
+	list-style: none;
+}
+
+ul.latestNews li * {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	color: #666;
+}
+
+ul.latestNews li a::before {
+	content: "»";
+}
+
+ul.latestNews li a:hover {
+	color: blue;
+}
+
+ul.Upcomingevents {
+	margin-top: 15px;
+	list-style: none;
+}
+ ul.Upcomingevents li * {
+ 	border-bottom: 1px solid #aaa;
+ 	padding-bottom: 1px;
+ 	color: #666;
+ }
+  ul.Upcomingevents li a::before {
+  	content: "»"
+  }
+
+  ul.Upcomingevents li a:hover {
+	color: blue;
+}
+ul.Notices {
+	margin-top: 15px;
+	list-style: none;
+
+}
+
+ul.Notices li * {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	color: #666;
+}
+ul.Notices li a::before {
+	content: "»";
+}
+
+ul.Notices li a:hover {
+	color: blue;
+}
+
+div.service {
+	width: 1000px;
+	color: blue;
+	background: #6444
+
+
+}
+
+div.service-col {
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+	
+}
+
+div.service {
+	
+	list-style: none;
+}
+
+div.service-col li *{
+	
+	margin-bottom:15px;
+	margin-top: 15px;
+	color: black
+}
+
+div.service-col li a::before {
+  	content: "»"
+  }
+
+  div.service-col li a {
+  	margin-bottom: 5px;
+  	display: block;
+  }
+
+  form.contact input, form.contact textarea {
+  	background: #eee;
+  	padding: 5px;
+  	margin-bottom: -16px;
+  	width: 250px;
+  	border :none;
+  	border-radius: 7px;
+  }
+  form.contact button {
+  	background: #eee;
+  	color: red;
+  	border:none;
+  	border-radius: 5px;
+  	padding: 5px 15px;
+  }
+  div.copyrights {
+  	width: 1000px;
+  	
+
+  }
+   div.left {
+   	float:left;
+   	margin: 20px;
+   }
+   div.right {
+   	float:right;
+   	margin: 20px;
+   }
